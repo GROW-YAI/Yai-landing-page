@@ -4,11 +4,11 @@ import { faHandshake, faCheckSquare, faLeaf, faLightbulb } from "@fortawesome/fr
 
 const AboutInnovator = () => {
   return (
-    <div className="mt-0 border-b-2 flex flex-col md:flex-row items-center md:items-stretch max-md:mt-9">
+    <div className="mt-3 pb-8 border-b-2 flex flex-col md:flex-row items-center md:items-stretch max-md:mt-9">
       {/* Left Image Section */}
       <div className="w-full md:w-1/2 pl-18">
         <img
-          src="/assets/tonic2.jpg"
+          src="/assets/About-Image.jpeg"
           alt="about the innovator"
           className="w-140 h-full object-cover"
         />
@@ -35,10 +35,10 @@ const AboutInnovator = () => {
           </div>
 
  {/* overlapping paragraph */}
- <div className="relative max-md:pt-5 flex justify-center md:justify-start">
-  <div className="p-7 sm:p-8 rounded-lg shadow-lg w-[80%] -ml-10 max-sm:-ml-20 max-md:-ml-0 lg:-ml-76 relative mb-32 max-md:w-[60%] max-md:justify-center">
+ <div className="relative max-md:pt-5 flex justify-center md:justify-start ">
+  <div className="p-7 sm:p-8 rounded-lg shadow-lg w-[80%] -ml-10 max-sm:-ml-20 max-md:-ml-0 lg:-ml-76 relative mb-32 max-md:w-[60%] max-md:justify-center bg-[rgba(0,0,0,0.5)]">
     <FontAwesomeIcon icon={faLightbulb} className="text-2xl sm:text-3xl md:text-4xl absolute -top-2 sm:-top-4 -left-2 sm:-left-4" />
-    <p className="text-sm sm:text-base md:text-lg">
+    <p className="text-sm sm:text-base md:text-lg text-white">
       Sustainability and innovation drive us to promote valuable and eco-friendly products.
     </p>
     <FontAwesomeIcon icon={faLeaf} className="text-2xl sm:text-3xl md:text-4xl absolute -bottom-2 sm:-bottom-4 -right-2 sm:-right-4" />

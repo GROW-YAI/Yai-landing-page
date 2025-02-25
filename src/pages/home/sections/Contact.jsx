@@ -14,8 +14,8 @@ const Contact = () => {
       <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Phone */}
         <div className="bg-white shadow-lg rounded-lg p-6 text-center h-86 w-65 max-md:h-65 max-md:w-120 max-md:p-3 mx-auto">
-          <div className="flex items-center justify-center w-28 h-28 mx-auto mb-12 max-md:mb-7 rounded-full border-2 border-blue-500" 
-               style={{ background: "linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3))" }}>
+          <div className="flex items-center justify-center w-28 h-28 mx-auto mb-12 max-md:mb-7 rounded-full border-2 border-blue-500"
+            style={{ background: "linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3))" }}>
             <FaPhoneAlt className="text-white text-3xl" />
           </div>
           <h3 className="text-lg font-semibold mb-4 max-md:mb-5">Phone</h3>
@@ -24,8 +24,8 @@ const Contact = () => {
 
         {/* Email */}
         <div className="bg-white shadow-lg rounded-lg p-6 text-center h-86 w-65 max-md:h-65 max-md:w-120 max-md:p-3 mx-auto">
-          <div className="flex items-center justify-center w-28 h-28 mx-auto mb-12 max-md:mb-7 rounded-full border-2 border-blue-500" 
-               style={{ background: "linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.37))" }}>
+          <div className="flex items-center justify-center w-28 h-28 mx-auto mb-12 max-md:mb-7 rounded-full border-2 border-blue-500"
+            style={{ background: "linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.37))" }}>
             <FaEnvelope className="text-white text-3xl" />
           </div>
           <h3 className="text-lg font-semibold mb-4 max-md:mb-5">Email</h3>
@@ -34,8 +34,8 @@ const Contact = () => {
 
         {/* Address */}
         <div className="bg-white shadow-lg rounded-lg p-6 text-center h-86 w-65 max-md:h-65 max-md:w-120 max-md:p-3 mx-auto">
-          <div className="flex items-center justify-center w-28 h-28 mx-auto mb-12 max-md:mb-7 rounded-full border-2 border-blue-500" 
-               style={{ background: "linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3))" }}>
+          <div className="flex items-center justify-center w-28 h-28 mx-auto mb-12 max-md:mb-7 rounded-full border-2 border-blue-500"
+            style={{ background: "linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3))" }}>
             <FaMapMarkerAlt className="text-white text-3xl" />
           </div>
           <h3 className="text-lg font-semibold mb-4 max-md:mb-5">Address</h3>
