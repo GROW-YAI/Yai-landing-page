@@ -11,10 +11,18 @@ const Hero = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 5000,
+    appendDots: dots => (
+      <div>
+        <ul className="custom-dots"> {dots} </ul>
+      </div>
+    ),
+    customPaging: i => (
+      <div className="mt-2 w-2 h-2 bg-gradient-to-r from-[#7668e4] to-[#027D00] rounded-full"></div> // Red dots
+    ),
   };
 
   return (
-    <section className="relative z-0 border-b-2 mb-8">
+    <section className="relative z-0 border-b-2 mb-11" id="home">
     <Slider {...sliderSettings}>
       {/* Slide 1 */}
       <div className="relative h-screen flex items-center justify-center py-50">
@@ -28,10 +36,10 @@ const Hero = () => {
       <div className="absolute inset-0  bg-[#000000] opacity-70 "></div>
 
         <div className="text-center text-white relative z-10 px-6">
-          <span className=" text-4xl font-bold uppercase tracking-wide">Welcome </span>
-          <h1 className="text-4xl font-bold mt-4">Where innovation meets creativity <span className="text-blue-400">Impression</span></h1>
-          <p className="mt-4 text-lg">A product birthed out of a place where nature’s abundance meets innovation.</p>
-          <a href="#contact-section" className="mt-6 inline-block bg-blue-500 hover:bg-blue-600 text-white py-3 px-6 rounded-lg text-lg">
+          <span className=" text-4xl md:text-8xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#7668e4] to-[#027D00]">Welcome </span>
+          <h1 className="text-4xl font-bold mt-4">Where innovation meets creativity <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#7668e4] to-[#027D00]">Impression</span></h1>
+          <p className="mt-4 text-xl">A product birthed out of a place where nature’s abundance meets innovation.</p>
+          <a href="#contacts" className="mt-6 inline-block bg-gradient-to-br from-[#2E2668] to-[#027D00]  hover:bg-[#2E2668]text-white py-3 px-6 rounded-lg text-lg">
             Get in touch
           </a>
         </div>
@@ -46,13 +54,13 @@ const Hero = () => {
       ></div>
 
         {/* Overlay */}
-      <div className="absolute inset-0  bg-[#000000] opacity-50 "></div>
+      <div className="absolute inset-0  bg-[#000000] opacity-70 "></div>
 
         <div className="text-center text-white relative z-10 px-6">
-          <span className="text-4xl font-bold uppercase tracking-wide">Akwaaba</span>
-          <h1 className="text-4xl font-bold mt-4"><span className="text-blue-400">Sustainability</span>And Creativity <span className="text-blue-400">Birthed</span> Into a Product</h1>
-          <p className="mt-4 text-lg">Inspired by the rich potential of cashew fruits, this pomade transforms what was once considered waste into a nourishing, all-natural solution.</p>
-          <a href="#contact-section" className="mt-6 inline-block bg-blue-500 hover:bg-blue-600 text-white py-3 px-6 rounded-lg text-lg">
+          <span className="text-4xl md:text-8xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#fffdfd99] to-[#027D00]">Akwaaba</span>
+          <h1 className="text-4xl font-bold mt-4"><span className="bg-clip-text text-transparent bg-gradient-to-r from-[#fffdfd99] to-[#027D00]">Sustainability </span>And Creativity <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#fffdfd99] to-[#027D00]">Birthed</span> Into a Product</h1>
+          <p className="mt-4 text-xl">Inspired by the rich potential of cashew fruits, this pomade transforms what was once considered waste into a nourishing,<br /> all-natural solution.</p>
+        <a href="#contacts" className="mt-6 inline-block bg-gradient-to-br from-[#027D00] to-[#2E2668] hover:bg-[#2E2668] text-white py-3 px-6 rounded-lg text-lg">
             Get in touch
           </a>
         </div>

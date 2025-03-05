@@ -5,7 +5,7 @@ import AboutInnovator from "./sections/AboutInnovator";
 import Showcase from "./sections/Showcase";
 import Contact from "./sections/Contact";
 import CashewBanner from "./sections/CashewBanner";
-
+import Vision from "./sections/Vision";
 const Home = () => {
   return (
     <div>
@@ -13,6 +13,7 @@ const Home = () => {
       <AboutInnovator />
       <AboutProduct />
       <CashewBanner />
+      <Vision />
       <Showcase />
       <Contact />
     </div>

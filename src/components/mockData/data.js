@@ -1,40 +1,41 @@
 export const NavbarMenu = [
     {
-        id:1,
+        id: 1,
         title: "Home",
-        link: "/"
+        link: "#home"
     },
 
     {
-        id:2,
+        id: 2,
         title: "About",
+        hasDropdown: true,
         subMenu: [
-            { id: 21, title: "About Us", link: "/about-us" },
-            { id: 22, title: "About Product", link: "/about-product" }
+            { id: 21, title: "About Innovator", link: "#about_innovator" },
+            { id: 22, title: "About Product", link: "#about_product" }
         ]
     },
 
     {
-        id:3,
-        title: "Products",
-        link: "/"
+        id: 3,
+        title: "Product",
+        link: "#products"
     },
 
     {
-        id:4,
+        id: 4,
         title: "Vision",
-        link: "/"
+        link: "#vision"
     },
 
-    {
-        id:5,
-        title: "Blog",
-        link: "/"
-    },
+    // {
+    //     id: 5,
+    //     title: "Blog",
+    //     link: "/blog"
+    // },
 
     {
-        id:6,
+        id: 6,
         title: "Contact",
-        link: "/"
+        link: "#contacts"
     },
-]
+];

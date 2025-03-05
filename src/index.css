@@ -1,20 +1,45 @@
 @import "tailwindcss";
 
+:root {
+  --main-gradient: linear-gradient(to right, #027D00, #5bb2ec);
+  --second-gradient: linear-gradient(to right, #FEF3C7, #ECFCCB);
+}
+
+/* Scrollbar width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Scrollbar track (background) */
+::-webkit-scrollbar-track {
+  background: var(--second-gradient);
+}
+
+/* Scrollbar thumb (movable part) */
+::-webkit-scrollbar-thumb {
+  background-image: var(--main-gradient); 
+  border-radius: 3px;
+}
+
+
 html, body {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
   }
   
-  .hero-slide {
-    background-image: url('/assets/hero-3.webp');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .hexagon {
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   }
-  
+
+  .madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
