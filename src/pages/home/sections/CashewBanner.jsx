@@ -21,7 +21,7 @@ const CashewBanner = () => {
                     <div className='space-y-6 max-w-xl mx-auto'>
                         {/* Text-content */}
                         <h1 className='text-5xl text-center sm:text-left sm:text-4xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-amber-100 to-green-300 pl-3'>
-                            Your Organic Cashew butter creme is here.
+                            Your Organic Cashew cream is here.
                         </h1>
 
                         <div className='flex flex-wrap justify-center sm:justify-start items-center'>
