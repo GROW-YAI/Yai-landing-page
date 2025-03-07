@@ -183,9 +183,9 @@ const AboutProduct = () => {
                     {feature.icon}
                   </div>
                   <div>
-                    <h4 className="text-lg font-medium text-gray-800">{feature.title}</h4>
+                    <h4 className="text-xl font-medium text-gray-800">{feature.title}</h4>
                     <motion.p 
-                      className="text-gray-600"
+                      className="text-gray-600 text-lg"
                       initial={{ height: activeFeature === feature.id ? "auto" : 0 }}
                       animate={{ height: activeFeature === feature.id ? "auto" : "auto" }}
                     >

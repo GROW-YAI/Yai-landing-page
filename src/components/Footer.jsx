@@ -49,7 +49,7 @@ const Footer = () => {
               transition={{ delay: 0.5, duration: 0.5 }}
             />
           </h2>
-          <p className="text-gray-300 leading-relaxed">
+          <p className="text-gray-300 leading-relaxed text-lg">
             We are a passionate team dedicated to creating exceptional experiences 
             and innovative solutions that make a difference in people's lives.
           </p>
@@ -65,7 +65,7 @@ const Footer = () => {
               transition={{ delay: 0.5, duration: 0.5 }}
             />
           </h2>
-          <ul className="space-y-2">
+          <ul className="space-y-2 text-lg">
             {NavbarMenu.map((item) => (
               <motion.li 
                 key={item.id}
@@ -133,7 +133,7 @@ const Footer = () => {
               </div>
             </motion.a>
           </div>
-          <p className="text-gray-400 mt-4">Stay connected for updates and news</p>
+          <p className="text-gray-400 mt-4 text-lg">Stay connected for updates and news</p>
         </motion.div>
       </motion.div>
 

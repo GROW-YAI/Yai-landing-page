@@ -137,7 +137,7 @@ const Vision = () => {
             From Waste to Wonder
           </motion.h2>
           <motion.p 
-            className="text-gray-600 max-w-2xl mx-auto text-lg"
+            className="text-gray-600 max-w-2xl mx-auto text-xl"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.7, delay: 0.4 }}
@@ -238,7 +238,7 @@ const Vision = () => {
                 
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Vision</h3>
                 
-                <p className="text-gray-700 leading-relaxed mb-6">
+                <p className="text-gray-700 leading-relaxed mb-6 text-lg">
                   A world where agricultural "waste" due to "post-harvest" loss, is recognized as a valuable resource, where local 
                   communities thrive through sustainable innovation, and where beauty products enhance 
                   both people and planet.
@@ -276,7 +276,7 @@ const Vision = () => {
                 
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Mission</h3>
                 
-                <p className="text-gray-700 leading-relaxed mb-6">
+                <p className="text-gray-700 leading-relaxed mb-6 text-lg">
                   To transform cashew post-harvest excesses into premium, sustainable hair pomade while empowering local 
                   communities, promoting zero-waste manufacturing, and setting new standards for 
                   environmental responsibility in the beauty industry.
@@ -304,7 +304,7 @@ const Vision = () => {
         >
           <h3 className="text-3xl font-bold text-gray-900 mb-2">Our Guiding Pillars</h3>
           <div className="h-1 w-16 bg-gradient-to-r from-[#2E2668] to-[#027D00] mx-auto rounded-full mb-6" />
-          <p className="text-gray-600 max-w-2xl mx-auto">
+          <p className="text-gray-600 max-w-2xl mx-auto text-xl">
             The core principles that drive our business and impact
           </p>
         </motion.div>
@@ -331,8 +331,8 @@ const Vision = () => {
                   {pillar.icon}
                 </span>
               </motion.div>
-              <h4 className="text-lg font-bold text-gray-900 mb-2">{pillar.title}</h4>
-              <p className="text-gray-600 text-sm">{pillar.description}</p>
+              <h4 className="text-xl font-bold text-gray-900 mb-2">{pillar.title}</h4>
+              <p className="text-gray-600 text-lg">{pillar.description}</p>
             </motion.div>
           ))}
         </motion.div>
@@ -346,7 +346,7 @@ const Vision = () => {
           transition={{ delay: 0.2, duration: 0.8 }}
         >
           <h3 className="text-2xl font-bold text-gray-900 mb-4">Join Our Sustainable Journey</h3>
-          <p className="text-gray-600 max-w-2xl mx-auto mb-8">
+          <p className="text-gray-600 max-w-2xl mx-auto mb-8 text-lg">
             Be part of our mission to transform waste into wonder and create positive impact
           </p>
           <motion.button

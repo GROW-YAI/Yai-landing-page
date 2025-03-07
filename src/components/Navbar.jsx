@@ -405,15 +405,15 @@ const Navbar = () => {
     { 
       id: 2, 
       icon: <FaFacebook />, 
-      url: 'https://www.facebook.com/profile.php?id=61573553615944&mibextid=kFxxJD',
+      url: 'https://www.facebook.com/profile.php?id=mibextid=kFxxJD',
       label: 'Facebook',
       color: 'bg-blue-600',
       hoverColor: 'hover:bg-blue-700'
     },
     { 
-      id: 3, 
+      id: 5, 
       icon: <FaTiktok />, 
-      url: 'https://www.tiktok.com/@sakyistickenterprise?lang=en',
+      url: 'https://www.tiktok.com/@ickenterprise?lang=en',
       label: 'TikTok',
       color: 'bg-black',
       hoverColor: 'hover:bg-gray-800'
@@ -421,7 +421,7 @@ const Navbar = () => {
     { 
       id: 4, 
       icon: <FaLinkedin />, 
-      url: 'https://www.linkedin.com/company/sakyi-stick-enterprise/',
+      url: 'https://www.linkedin.com/company/ick-enterprise/',
       label: 'LinkedIn',
       color: 'bg-blue-700',
       hoverColor: 'hover:bg-blue-800'
