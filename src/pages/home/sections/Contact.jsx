@@ -49,7 +49,7 @@ const Contact = () => {
           <h3 className="text-xl font-semibold mb-3 text-gray-800">Call Us</h3>
           <a
             href="tel:+1234567890"
-            className="text-gray-600 hover:text-blue-500 transition-colors duration-300 flex items-center justify-center gap-2 group"
+            className="text-gray-600 hover:text-blue-500 transition-colors duration-300 flex items-center justify-center gap-2 group z"
           >
             +123 456 7890
             <ExternalLink className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
@@ -202,7 +202,7 @@ const Contact = () => {
             </div>
           </div>
           
-          <div className="bg-gradient-to-br from-[#2E2668] to-[#027D00] rounded-lg p-6 text-white">
+          {/* <div className="bg-gradient-to-br from-[#2E2668] to-[#027D00] rounded-lg p-6 text-white">
             <h4 className="font-semibold text-xl mb-4">Need Urgent Help?</h4>
             <p className="mb-4">Our support team is available for emergency assistance during business hours.</p>
             <a 
@@ -212,7 +212,7 @@ const Contact = () => {
               <Phone className="h-4 w-4 mr-2" />
               Call Support
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
       
