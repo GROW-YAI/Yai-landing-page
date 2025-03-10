@@ -66,7 +66,7 @@ const Showcase = () => {
   const IconComponent = currentProduct.icon;
 
   return (
-    <section className="p-16 px-6 md:px-14 border-b-2 overflow-hidden bg-gradient-to-b from-amber-30 to-white" id="products">
+    <section className="p-16 px-6 md:px-14 border-b-2 overflow-hidden bg-gradient-to-b from-amber-50 to-white" id="products">
       {/* Section Heading */}
       <motion.div className="text-center mb-12" initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -79,7 +79,7 @@ const Showcase = () => {
           transition={{ duration: 1, delay: 0.3 }}
           className="h-1 bg-[#2E2668] mx-auto mb-4"
         />
-        <p className="text-lg text-gray-600">Discover our carefully crafted Cream product made with premium cashew extracts for your skin's health and beauty.</p>
+        <p className="text-xl text-gray-600">Discover our carefully crafted Cream product made with premium cashew extracts for your skin's health and beauty.</p>
       </motion.div>
 
       <div className="flex flex-col md:flex-row items-center justify-center gap-10 pb-4">

@@ -32,7 +32,7 @@ const Contact = () => {
         <h2 className="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#2E2668] to-[#027D00] text-center mb-2">Get In Touch</h2>
         <div className="w-24 h-1 bg-[#2E2668] mx-auto mb-6"></div>
 
-        <p className="text-gray-600 max-w-2xl mx-auto">
+        <p className="text-gray-600 max-w-2xl mx-auto text-xl">
         Have questions or want to learn more? Drop us a message and our team will get back to you faster than you can say "impressive response time!".
         </p>
       </div>
@@ -49,7 +49,7 @@ const Contact = () => {
           <h3 className="text-xl font-semibold mb-3 text-gray-800">Call Us</h3>
           <a
             href="tel:+1234567890"
-            className="text-gray-600 hover:text-blue-500 transition-colors duration-300 flex items-center justify-center gap-2 group"
+            className="text-gray-600 hover:text-blue-500 transition-colors duration-300 flex items-center justify-center gap-2 group z"
           >
             +123 456 7890
             <ExternalLink className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
@@ -65,12 +65,12 @@ const Contact = () => {
             </div>
           </div>
           <h3 className="text-xl font-semibold mb-3 text-gray-800">mail Us</h3>
-          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sakyisticerprise@gmail.com"
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sarah@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-600 hover:text-green-500 transition-colors duration-300 flex items-center justify-center gap-2 group"
           >
-            sakyistiterprise@gmail.com
+            sarah@gmail.com
             <ExternalLink className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
           </a>
         </div>
@@ -106,7 +106,7 @@ const Contact = () => {
             </h3>
           </div>
           
-          <form onSubmit={handleSubmit} className="p-6 space-y-4">
+          <form action="mailto:sarah@gmail.com" method="post" onSubmit={handleSubmit} className="p-6 space-y-4">
             {submitted ? (
               <div className="bg-green-50 border border-green-200 rounded-md p-4 flex items-center text-green-700">
                 <CheckCircle className="h-5 w-5 mr-2" />
@@ -202,7 +202,7 @@ const Contact = () => {
             </div>
           </div>
           
-          <div className="bg-gradient-to-br from-[#2E2668] to-[#027D00] rounded-lg p-6 text-white">
+          {/* <div className="bg-gradient-to-br from-[#2E2668] to-[#027D00] rounded-lg p-6 text-white">
             <h4 className="font-semibold text-xl mb-4">Need Urgent Help?</h4>
             <p className="mb-4">Our support team is available for emergency assistance during business hours.</p>
             <a 
@@ -212,7 +212,7 @@ const Contact = () => {
               <Phone className="h-4 w-4 mr-2" />
               Call Support
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
       
