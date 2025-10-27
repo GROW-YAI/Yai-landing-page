@@ -48,10 +48,10 @@ const Contact = () => {
           </div>
           <h3 className="text-xl font-semibold mb-3 text-gray-800">Call Us</h3>
           <a
-            href="tel:+1234567890"
+            href="tel:+233240384040"
             className="text-gray-600 hover:text-blue-500 transition-colors duration-300 flex items-center justify-center gap-2 group z"
           >
-            +123 456 7890
+            +(233) 24-038-4040
             <ExternalLink className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
           </a>
         </div>
@@ -64,13 +64,13 @@ const Contact = () => {
               <Mail className="text-white text-3xl" />
             </div>
           </div>
-          <h3 className="text-xl font-semibold mb-3 text-gray-800">mail Us</h3>
-          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sarah@gmail.com"
+          <h3 className="text-xl font-semibold mb-3 text-gray-800">Mail Us</h3>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sakyiemmanuel4040@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-600 hover:text-green-500 transition-colors duration-300 flex items-center justify-center gap-2 group"
           >
-            sarah@gmail.com
+            sakyiemmanuel4040@gmail.com
             <ExternalLink className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
           </a>
         </div>
@@ -86,12 +86,12 @@ const Contact = () => {
 
           <h3 className="text-lg font-semibold mb-4 max-md:mb-5">Visit Us</h3>
           <a
-            href="https://maps.google.com/?q=123+Main+Street,City,Country"
+            href="https://www.google.com/maps/place/7%C2%B024'00.9%22N+2%C2%B011'04.2%22W/@7.4001474,-2.1851281,18.81z/data=!4m4!3m3!8m2!3d7.40025!4d-2.1845?entry=ttu&g_ep=EgoyMDI1MTAxNC4wIKXMDSoASAFQAw%3D%3D"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-600 hover:text-purple-500 transition-colors duration-300 flex items-center justify-center gap-2 group"
           >
-            123 Main Street, City, Country
+            D-178 Chiraa, Sunyani, Ghana
             <ExternalLink className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
           </a>
         </div>

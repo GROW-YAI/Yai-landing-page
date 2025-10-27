@@ -63,14 +63,14 @@ const Navbar = () => {
   };
 
   const socialLinks = [
-    { 
-      id: 1, 
-      icon: <SiInstagram />, 
-      url: 'https://www.instagram.com/kyisenterprise',
-      label: 'Instagram',
-      color: 'bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500',
-      hoverColor: 'hover:bg-gradient-to-r hover:from-purple-600 hover:via-pink-600 hover:to-orange-600'
-    },
+    // { 
+    //   id: 1, 
+    //   icon: <SiInstagram />, 
+    //   url: 'https://www.instagram.com/kyisenterprise',
+    //   label: 'Instagram',
+    //   color: 'bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500',
+    //   hoverColor: 'hover:bg-gradient-to-r hover:from-purple-600 hover:via-pink-600 hover:to-orange-600'
+    // },
     { 
       id: 2, 
       icon: <FaFacebook />, 
@@ -82,7 +82,7 @@ const Navbar = () => {
     { 
       id: 5, 
       icon: <FaTiktok />, 
-      url: 'https://www.tiktok.com/@sakyistickenterprise?lang=en',
+      url: 'https://www.tiktok.com/@sakyistickenterprise?lang=en/',
       label: 'TikTok',
       color: 'bg-black',
       hoverColor: 'hover:bg-gray-800'
@@ -90,7 +90,7 @@ const Navbar = () => {
     { 
       id: 4, 
       icon: <FaLinkedin />, 
-      url: 'https://www.linkedin.com/company/sakyi-stick-enterprise',
+      url: 'https://www.linkedin.com/company/sakyi-stick-enterprise/',
       label: 'LinkedIn',
       color: 'bg-blue-700',
       hoverColor: 'hover:bg-blue-800'
@@ -113,8 +113,8 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Menu section */}
-          <div className='hidden lg:flex justify-center flex-1'>
-            <ul className='flex items-center gap-4 xl:gap-6 text-gray-600'>
+          <div className='hidden lg:flex justify-start '>
+            <ul className='flex items-center gap-4 xl:gap-5 text-gray-600'>
               {NavbarMenu.map((item) => (
                 <li key={item.id} className="relative group">
                   {item.hasDropdown ? (
