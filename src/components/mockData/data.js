@@ -8,6 +8,7 @@ export const NavbarMenu = [
     {
         id: 2,
         title: "About",
+        link: "#about_innovator",
         hasDropdown: true,
         subMenu: [
             { id: 21, title: "About Innovator", link: "#about_innovator" },

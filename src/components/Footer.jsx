@@ -12,9 +12,9 @@ const Footer = () => {
       opacity: 1,
       transition: {
         staggerChildren: 0.2,
-        delayChildren: 0.3
-      }
-    }
+        delayChildren: 0.3,
+      },
+    },
   };
 
   const itemVariants = {
@@ -22,12 +22,12 @@ const Footer = () => {
     visible: {
       y: 0,
       opacity: 1,
-      transition: { type: "spring", stiffness: 100 }
-    }
+      transition: { type: "spring", stiffness: 100 },
+    },
   };
 
   const socialVariants = {
-    hover: { scale: 1.1, rotate: 5 }
+    hover: { scale: 1.1, rotate: 5 },
   };
 
   return (
@@ -42,7 +42,7 @@ const Footer = () => {
         <motion.div variants={itemVariants} className="space-y-4">
           <h2 className="text-xl font-bold mb-4 text-white relative inline-block">
             About Us
-            <motion.span 
+            <motion.span
               className="absolute -bottom-1 left-0 w-full h-0.5 bg-indigo-500"
               initial={{ width: 0 }}
               whileInView={{ width: "100%" }}
@@ -50,15 +50,16 @@ const Footer = () => {
             />
           </h2>
           <p className="text-gray-300 leading-relaxed text-lg">
-            We are a passionate team dedicated to creating exceptional experiences 
-            and innovative solutions that make a difference in people's lives.
+            We are a passionate team dedicated to creating exceptional
+            experiences and innovative solutions that make a difference in
+            people's lives.
           </p>
         </motion.div>
 
         <motion.div variants={itemVariants} className="space-y-4">
           <h2 className="text-xl font-bold mb-4 text-white relative inline-block">
             Quick Links
-            <motion.span 
+            <motion.span
               className="absolute -bottom-1 left-0 w-full h-0.5 bg-indigo-500"
               initial={{ width: 0 }}
               whileInView={{ width: "100%" }}
@@ -88,7 +89,7 @@ const Footer = () => {
         <motion.div variants={itemVariants} className="space-y-4">
           <h2 className="text-xl font-bold mb-4 text-white relative inline-block">
             Connect With Us
-            <motion.span 
+            <motion.span
               className="absolute -bottom-1 left-0 w-full h-0.5 bg-indigo-500"
               initial={{ width: 0 }}
               whileInView={{ width: "100%" }}
@@ -96,8 +97,8 @@ const Footer = () => {
             />
           </h2>
           <div className="flex space-x-6 items-center justify-center md:justify-start">
-            <motion.a 
-              href="https://www.facebook.com/profile.php?id=61573553615944&mibextid=kFxxJD" 
+            <motion.a
+              href="https://www.facebook.com/profile.php?id=61573553615944&mibextid=kFxxJD"
               target="_blank"
               rel="noopener noreferrer"
               whileHover="hover"
@@ -108,10 +109,10 @@ const Footer = () => {
                 <FaFacebook className="w-5 h-5 text-white" />
               </div>
             </motion.a>
-            <motion.a 
+            <motion.a
               href="https://www.tiktok.com/@sakyistickenterprise?lang=en"
               target="_blank"
-              rel="noopener noreferrer" 
+              rel="noopener noreferrer"
               whileHover="hover"
               variants={socialVariants}
               className="group"
@@ -120,10 +121,10 @@ const Footer = () => {
                 <FaTiktok className="w-5 h-5 text-white" />
               </div>
             </motion.a>
-            <motion.a 
+            <motion.a
               href="https://www.linkedin.com/company/sakyi-stick-enterprise/"
               target="_blank"
-              rel="noopener noreferrer" 
+              rel="noopener noreferrer"
               whileHover="hover"
               variants={socialVariants}
               className="group"
@@ -133,11 +134,13 @@ const Footer = () => {
               </div>
             </motion.a>
           </div>
-          <p className="text-gray-400 mt-4 text-lg">Stay connected for updates and news</p>
+          <p className="text-gray-400 mt-4 text-lg">
+            Stay connected for updates and news
+          </p>
         </motion.div>
       </motion.div>
 
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.8 }}
@@ -145,11 +148,12 @@ const Footer = () => {
       >
         <div className="flex flex-col md:flex-row items-center justify-between">
           <p className="text-gray-400 text-sm">© 2025 All rights reserved</p>
-          <motion.div 
+          <motion.div
             className="flex items-center mt-4 md:mt-0 text-sm text-gray-400"
             whileHover={{ scale: 1.05 }}
           >
-            Made with <Heart className="mx-1 text-red-500 w-4 h-4" /> by our amazing team
+            Made with <Heart className="mx-1 text-red-500 w-4 h-4" /> by our
+            amazing team
           </motion.div>
         </div>
       </motion.div>
