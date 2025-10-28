@@ -39,7 +39,7 @@ const AboutInnovator = () => {
              <div className="relative">
                <div className="absolute inset-0 bg-gradient-to-r from-[#2E2668]/40 to-[#027D00]/40 rounded-3xl transform -rotate-4"></div>
                <img
-                src="/assets/About-Image.jpeg"
+                src="/assets/innovatorimg.JPG"
                 alt="Emmanuel Sekye - CEO"
                 className="relative rounded-3xl shadow-2xl transform hover:scale-[1.02] transition-transform duration-300 object-cover w-full aspect-[4/5]"
               />

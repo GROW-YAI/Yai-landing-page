@@ -249,8 +249,8 @@ const Vision = () => {
                   whileHover={{ x: 5 }}
                   transition={{ type: "spring", stiffness: 400 }}
                 >
-                  <span>Discover our sustainability practices</span>
-                  <ArrowRight size={16} className="ml-2" />
+                  {/* <span>Discover our sustainability practices</span>
+                  <ArrowRight size={16} className="ml-2" /> */}
                 </motion.div>
               </div>
             </div>
@@ -287,8 +287,8 @@ const Vision = () => {
                   whileHover={{ x: 5 }}
                   transition={{ type: "spring", stiffness: 400 }}
                 >
-                  <span>Learn about our production process</span>
-                  <ArrowRight size={16} className="ml-2" />
+                  {/* <span>Learn about our production process</span>
+                  <ArrowRight size={16} className="ml-2" /> */}
                 </motion.div>
               </div>
             </div>
