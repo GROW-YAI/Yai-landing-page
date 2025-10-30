@@ -87,14 +87,14 @@ const Navbar = () => {
       color: 'bg-black',
       hoverColor: 'hover:bg-gray-800'
     },
-    { 
-      id: 4, 
-      icon: <FaLinkedin />, 
-      url: 'https://www.linkedin.com/company/sakyi-stick-enterprise/',
-      label: 'LinkedIn',
-      color: 'bg-blue-700',
-      hoverColor: 'hover:bg-blue-800'
-    }
+    // { 
+    //   id: 4, 
+    //   icon: <FaLinkedin />, 
+    //   url: 'https://www.linkedin.com/company/sakyi-stick-enterprise/',
+    //   label: 'LinkedIn',
+    //   color: 'bg-blue-700',
+    //   hoverColor: 'hover:bg-blue-800'
+    // }
   ];
 
   return (

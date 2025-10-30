@@ -121,7 +121,7 @@ const Footer = () => {
                 <FaTiktok className="w-5 h-5 text-white" />
               </div>
             </motion.a>
-            <motion.a
+            {/* <motion.a
               href="https://www.linkedin.com/company/sakyi-stick-enterprise/"
               target="_blank"
               rel="noopener noreferrer"
@@ -132,7 +132,7 @@ const Footer = () => {
               <div className="bg-gray-700 p-3 rounded-full group-hover:bg-blue-700 transition-colors duration-300">
                 <FaLinkedin className="w-5 h-5 text-white" />
               </div>
-            </motion.a>
+            </motion.a> */}
           </div>
           <p className="text-gray-400 mt-4 text-lg">
             Stay connected for updates and news
